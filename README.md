@@ -27,9 +27,8 @@ e.g. `${KIPRJMOD}/kicad-library/3dmodels` for the `USER_3DMODEL_DIR` variable.
 
 Replace or merge the symbol and footprint tables (`sym-lib-table`,
 `fp-lib-table`) present in the KiCad preferences folder with the files in the
-folder `config`.
-
-On Linux, the preferences are in `~/.config/kicad`.
-On Windows, the preferences are in `%APPDATA%\kicad`
+folder `config`:
+- On Linux, the preferences are in `~/.config/kicad`.
+- On Windows, the preferences are in `%APPDATA%\kicad`
 (= `%HOMEPATH%\AppData\Roaming\kicad`).
-On macOS, the preferences are in `~/Library/Preferences/kicad`.
+- On macOS, the preferences are in `~/Library/Preferences/kicad`.
