@@ -1284,7 +1284,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0 0)
+			(at 19.558 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1322,7 +1322,7 @@
 		)
 		(symbol "WS2813B-V5_0_0"
 			(text "RGB"
-				(at 2.286 -4.191 0)
+				(at 2.032 1.397 0)
 				(effects
 					(font
 						(size 0.762 0.762)
@@ -1331,93 +1331,9 @@
 			)
 		)
 		(symbol "WS2813B-V5_0_1"
-			(polyline
-				(pts
-					(xy 1.27 -3.556) (xy 1.778 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 -2.54) (xy 1.778 -2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.699 -3.556) (xy 2.667 -3.556)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
-				(start 5.08 5.08)
-				(end -5.08 -5.08)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -1426,12 +1342,96 @@
 					(type background)
 				)
 			)
+			(polyline
+				(pts
+					(xy 1.016 2.032) (xy 1.524 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 3.048) (xy 1.524 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 2.032) (xy 2.413 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 3.048) (xy 1.016 2.032) (xy 1.016 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.032 4.064) (xy 1.016 3.048) (xy 1.016 3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.429 4.572) (xy 3.429 2.032) (xy 3.429 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 4.064) (xy 2.413 4.064) (xy 3.429 2.032) (xy 4.445 4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "WS2813B-V5_1_1"
-			(pin power_in line
-				(at 0 7.62 270)
+			(pin output line
+				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "VCC"
+				(name "BO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1447,9 +1447,9 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 7.62 270)
+				(at 0 7.62 270)
 				(length 2.54)
-				(name "VDD"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1467,7 +1467,7 @@
 			(pin output line
 				(at 7.62 0 180)
 				(length 2.54)
-				(name "DOUT"
+				(name "DO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1485,7 +1485,7 @@
 			(pin input line
 				(at -7.62 0 0)
 				(length 2.54)
-				(name "DIN"
+				(name "DI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1521,7 +1521,7 @@
 			(pin input line
 				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "BIN"
+				(name "BI"
 					(effects
 						(font
 							(size 1.27 1.27)
