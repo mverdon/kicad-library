@@ -10,6 +10,7 @@
   (lib (name "Crystal")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Crystal.pretty")(options "")(descr ""))
   (lib (name "Diode_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Diode_SMD.pretty")(options "")(descr ""))
   (lib (name "Fiducial")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Fiducial.pretty")(options "")(descr ""))
+  (lib (name "FPC")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/FPC.pretty")(options "")(descr ""))
   (lib (name "Heatsink")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Heatsink.pretty")(options "")(descr ""))
   (lib (name "Inductor_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Inductor_SMD.pretty")(options "")(descr ""))
   (lib (name "LED_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/LED_SMD.pretty")(options "")(descr ""))
