@@ -332,7 +332,7 @@
 		(pin_names
 			(offset 1.016) hide)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
 			(at 0 5.08 0)
