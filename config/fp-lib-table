@@ -22,7 +22,6 @@
   (lib (name "Package_SON")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_SON.pretty")(options "")(descr ""))
   (lib (name "Package_SOT")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_SOT.pretty")(options "")(descr ""))
   (lib (name "Package_TO_THT")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_TO_THT.pretty")(options "")(descr ""))
-  (lib (name "Package_TSSOP")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_TSSOP.pretty")(options "")(descr ""))
   (lib (name "Potentiometer_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Potentiometer_SMD.pretty")(options "")(descr ""))
   (lib (name "Relay_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Relay_SMD.pretty")(options "")(descr ""))
   (lib (name "Resistor_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Resistor_SMD.pretty")(options "")(descr ""))
