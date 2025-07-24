@@ -18,6 +18,7 @@
   (lib (name "Driver_FET")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Driver_FET.kicad_sym")(options "")(descr ""))
   (lib (name "Ferrite_Bead")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Ferrite_Bead.kicad_sym")(options "")(descr ""))
   (lib (name "Inductor")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Inductor.kicad_sym")(options "")(descr ""))
+  (lib (name "Interface_CAN_LIN")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Interface_CAN_LIN.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_Expansion")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Interface_Expansion.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_UART")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Interface_UART.kicad_sym")(options "")(descr ""))
   (lib (name "Interface_USB")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Interface_USB.kicad_sym")(options "")(descr ""))
