@@ -4,6 +4,7 @@
   (lib (name "Capacitor_SMD")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Capacitor_SMD.pretty")(options "")(descr ""))
   (lib (name "Connector_Dsub")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Connector_Dsub.pretty")(options "")(descr ""))
   (lib (name "Connector_FFC-FPC")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Connector_FFC-FPC.pretty")(options "")(descr ""))
+  (lib (name "Connector_JAE")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Connector_JAE.pretty")(options "")(descr ""))
   (lib (name "Connector_PinHeader")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Connector_PinHeader.pretty")(options "")(descr ""))
   (lib (name "Connector_PinSocket_2.54mm")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Connector_PinSocket_2.54mm.pretty")(options "")(descr ""))
   (lib (name "Connector_TerminalBlock")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Connector_TerminalBlock.pretty")(options "")(descr ""))
