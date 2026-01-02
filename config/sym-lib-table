@@ -26,6 +26,7 @@
   (lib (name "LED")(type "KiCad")(uri "${USER_SYMBOL_DIR}/LED.kicad_sym")(options "")(descr ""))
   (lib (name "Logic_LevelTranslator")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Logic_LevelTranslator.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_Nordic")(type "KiCad")(uri "${USER_SYMBOL_DIR}/MCU_Nordic.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_ST")(type "KiCad")(uri "${USER_SYMBOL_DIR}/MCU_ST.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_WCH")(type "KiCad")(uri "${USER_SYMBOL_DIR}/MCU_WCH.kicad_sym")(options "")(descr ""))
   (lib (name "Mechanical")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Mechanical.kicad_sym")(options "")(descr ""))
   (lib (name "Memory_EEPROM")(type "KiCad")(uri "${USER_SYMBOL_DIR}/Memory_EEPROM.kicad_sym")(options "")(descr ""))

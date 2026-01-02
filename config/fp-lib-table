@@ -19,6 +19,7 @@
   (lib (name "MountingHole")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/MountingHole.pretty")(options "")(descr ""))
   (lib (name "Package_DFN_QFN")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_DFN_QFN.pretty")(options "")(descr ""))
   (lib (name "Package_LGA")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_LGA.pretty")(options "")(descr ""))
+  (lib (name "Package_QFP")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_QFP.pretty")(options "")(descr ""))
   (lib (name "Package_SO")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_SO.pretty")(options "")(descr ""))
   (lib (name "Package_SON")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_SON.pretty")(options "")(descr ""))
   (lib (name "Package_SOT")(type "KiCad")(uri "${USER_FOOTPRINT_DIR}/Package_SOT.pretty")(options "")(descr ""))
